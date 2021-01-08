@@ -44,7 +44,7 @@ outra parte a View esta relacionada a exibição dos dados ou informações dess
 que a aplicação precisa completar.
   
 <p align="center">
-<img src="./images/arquitetura_mvc.png" width=100%>
+<img src="./images/arquitetura_mvc.png" width=70%>
 </p>
  
 #### Explicando cada um dos objetos do padrão MVC 
@@ -70,7 +70,7 @@ dependem dele, ou seja, cada view tem a chance de atualizar-se. Desta maneira, p
 Apesar de ter deixado bem claro (não custa nada frisar), a view não tem conhecimento do que a aplicação está atualmente fazendo, tudo que ela realmente faz é receberinstruções do controller com informações do model e então exibir elas. Além disso, se comunica de volta com o model e com o controlador para reportar o seu estado.<br>
 
 <p align="center">
-<img src="./images/arquitetura_mvc2.png" width=100%>
+<img src="./images/arquitetura_mvc2.png" width=70%>
 </p>
 
 #### Exemplificando o fluxo
