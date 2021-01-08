@@ -74,6 +74,10 @@ Apesar de ter deixado bem claro (não custa nada frisar), a view não tem conhec
 Imagine que em um sistema e-commerce, o usuário João(sempre nos exemplos) interaja com a interface ao pressionar um botão para adicionar um item em um carrinho de compra,sendo esta exibida por uma view (como uma página HTML). Após essa ação, a view envia uma requisição ao controller, este vai acessar o model, possivelmente atualizando-o de forma apropriada para as ações do usuário, causando uma alteração no estado do model tanto quanto nas informações.
 Por fim, a view recebe as informações do model. Após isso, o controlador, como um gerenciador da interface do usuário, aguarda por mais interações do usuário,onde inicia novamente todo o ciclo.
 
+#### Exemplo de uso
+Como exemplo, segue este projeto em que é aplicado a arquitetura MVC, utilizando React no frontend(nossa view) e o node no backend(possuindo os  controllers e models da aplicação).
+
+<a href="https://github.com/JoaoVictorfss/gobaber">gobarber</a>
 </p>
 
 ## Conclusão
