@@ -2,10 +2,10 @@
 
 ## Introdução:
 <p>
-Misturar o código de acesso a dados juntamente com à lógica de negócios e a apresentação na construção de sistemas pode gerar inúmero problemas, pois
+Misturar o código de acesso a dados juntamente com à lógica de negócios e a apresentação na construção de sistemas pode gerar inúmeros problemas, pois
 torna-se difícil de manter, visto que qualquer alteração que se faça é preciso ter cuidado para não afetar outras partes do sistema.<br>
 Sendo assim, em  busca de softwares de qualidade, com manutenção mais fácil e organizada, além de códigos limpos, usando boas práticas de programação sempre,
-deve-se  adotar, para auxiliar no desenvolvimento, padrões de projeto ou arquitetura, que são padrões de alto nível para grandes aplicações que nos permite o reuso decódigo fonte e expansibilidade do software.
+deve-se  adotar, para auxiliar no desenvolvimento, padrões de projeto ou arquitetura, que são padrões de alto nível para grandes aplicações que nos permite o reuso de código fonte e expansibilidade do software.
   
 #### Desenvolver uma aplicação utilizando algum padrão de projeto pode trazer alguns dos seguintes benefícios: 
 - Escalabilidade;
@@ -47,11 +47,11 @@ De forma resumida, a base do MVC é separar uma aplicação em três partes dist
   
 *Model*: Veja o model como o coração da arquitetura, pois é ele quem modela o problema que está se tentando resolver. Para isso, esta camada contém a 
 lógica da aplicação, representa os dados empresariais e as regras de negócio que controlam a atualização desses dados. 
-Frequentemente o model funciona como a aproximação de um processo do mundo real. responsável por implementar a lógica da regras de negócio tal qual o
+Frequentemente o model funciona como a aproximação de um processo do mundo real. Além disso, é responsável por implementar a lógica da regras de negócio tal qual o
 armazenamento persistente.<br>
 
 *Controller*: Sua função, como o próprio nome define, é coordenar e organizar esta arquitetura, funcionando como intermediário entre a camada de apresentação e a camada de negócios.
-O controller define o comportamento da aplicação, é ele quem interpreta as solicitações feitas por usuários e, com bases nestes requerimentos, comunica-se com o model que, por sua vez, seleciona a view e atualiza-a para o usuário, ou seja, o controller controla e mapeia as ações. <br>
+O controller define o comportamento da aplicação, é ele quem interpreta as solicitações feitas por usuários e, com base nestes requerimentos, comunica-se com o model que, por sua vez, seleciona a view e atualiza-a para o usuário, ou seja, o controller controla e mapeia as ações. <br>
 Resumindo as funções do controller: 
 Ativar processos de negócio;
 Mudar o estado do model;
