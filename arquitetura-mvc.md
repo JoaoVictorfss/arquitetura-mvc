@@ -43,6 +43,10 @@ De forma resumida, a base do MVC é separar uma aplicação em três partes dist
 outra parte a View esta relacionada a exibição dos dados ou informações dessa uma aplicação e a terceira parte, Controller, em coordenar os dois anteriores exibindo a interface correta ou executando algum trabalho 
 que a aplicação precisa completar.
   
+<p align="center">
+<img src="./images/arquitetura_mvc.png" width=100%>
+</p>
+ 
 #### Explicando cada um dos objetos do padrão MVC 
   
 *Model*: Veja o model como o coração da arquitetura, pois é ele quem modela o problema que está se tentando resolver. Para isso, esta camada contém a 
@@ -64,6 +68,10 @@ para receber notificações de mudanças ou solicitar ao model o seu estado atua
 Portanto, a view deve garantir que sua apresentação reflita o estado do model, quando os dados do model mudam, o model notifica as views que 
 dependem dele, ou seja, cada view tem a chance de atualizar-se. Desta maneira, permite ligar muitas views a um model, podendo fornecer diferentes apresentações.
 Apesar de ter deixado bem claro (não custa nada frisar), a view não tem conhecimento do que a aplicação está atualmente fazendo, tudo que ela realmente faz é receberinstruções do controller com informações do model e então exibir elas. Além disso, se comunica de volta com o model e com o controlador para reportar o seu estado.<br>
+
+<p align="center">
+<img src="./images/arquitetura_mvc2.png" width=100%>
+</p>
 
 #### Exemplificando o fluxo
 Imagine que em um sistema e-commerce, o usuário João(sempre nos exemplos) interaja com a interface ao pressionar um botão para adicionar um item em um carrinho de compra,sendo esta exibida por uma view (como uma página HTML). Após essa ação, a view envia uma requisição ao controller, este vai acessar o model, possivelmente atualizando-o de forma apropriada para as ações do usuário, causando uma alteração no estado do model tanto quanto nas informações.
