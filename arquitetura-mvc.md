@@ -82,7 +82,7 @@ Como exemplo, segue este projeto em que é aplicado a arquitetura MVC, utilizand
 
 ## Conclusão
 <p>
-Espero que tenha ficado claro os benefícios gerados os se utilizar um padrão de projeto, os conceitos abordados e a importância da arquitetura MVC no desenvolvimento de sistemas até hoje, lembre-se que esse padrão é usado desde a década de 70, então funciona, certo? Boa codificação :smiley: !
+Espero que tenha ficado claro os benefícios gerados ao se utilizar um padrão de projeto, os conceitos abordados e a importância da arquitetura MVC no desenvolvimento de sistemas até hoje, lembre-se que esse padrão é usado desde a década de 70, então funciona, certo? Boa codificação :smiley: !
 </p>
 
 ## Referências bibliográficas
